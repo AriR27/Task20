@@ -1,0 +1,8 @@
+public class Solution {
+    public static int areaOrPerimeter (int l, int w) {
+       int result =0;
+      if (l==w) result = result + l*w;
+      else result = result + (2*l)+ (2*w);
+      return result;
+    }
+}
